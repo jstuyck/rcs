@@ -1,0 +1,90 @@
+#!/bin/sh
+
+#############################
+#COMPILATION ALIAS
+#############################
+alias m='make'
+alias md='make distclean'
+alias ma='make clean all'
+alias mac='make clean all check'
+alias c='./configure'
+alias gm='gmake'
+
+
+#wget recursif
+#alias wgetr 'wget -r -N -l inf --connect-timeout=10'
+alias wgetr='wget -r -N -l inf'
+alias wgetc='wget -c'
+
+#recursive grep with filename and line number
+alias grepr='grep -r -n -H'
+
+#remove directory
+alias rd='rm -r'
+
+#emacs alias
+alias emacs='emacs '
+alias enw='emacs -nw'
+alias e='emacs'
+#emacs en console
+
+alias b="bash"
+
+#vim
+alias vi='vim'
+
+#alias make 'gmake'
+alias mm='make |& less'
+alias make_muet="make 1>/dev/null"
+
+alias getx='export DISPLAY=:0.0'
+
+alias j='jobs'
+alias h='history'
+
+alias fixme='grep -n -a -s FIXME * 2> /dev/null'
+
+if [ `uname -s` != "Linux" ] ; then
+    alias ls="ls -FG"
+    alias ll="ls -lh"
+    alias la="ls -lha"
+else
+    alias ls="ls -FG"
+    alias ll="ls -lh"
+    alias la="ls -lha"
+fi
+
+alias rm='rm -i'
+
+alias mygcc="gcc -Wall -W -Werror -ansi -pedantic"
+
+
+alias a='alias'
+
+#mistake command 
+
+a l='/bin/ls -AF'
+a cd..='cd ..'
+a 'cd-'='cd -'
+
+#Divers.
+
+a clean='rm -rf *~ 2> /dev/null'
+
+a x='exit'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
