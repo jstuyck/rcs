@@ -11,4 +11,5 @@ Emacs support :
       - default format supported by emacs ( C, C++ )
 
 TODO :
-     - html/php/javascript files syntax highlight support
+
+      - html/php/javascript files syntax highlight support
