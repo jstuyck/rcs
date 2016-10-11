@@ -16,6 +16,7 @@
 ;; ----- Nginx --------
 (load "~/.emacs.d/nginx-mode.el")
 (require 'nginx-mode)
+(add-to-list 'auto-mode-alist '("/nginx/sites-\\(?:available\\|enabled\\)/" . nginx-mode))
 
 ;; ----- Options -------
 (custom-set-variables '(pc-selection-mode t nil (pc-select))) ; select with shift
