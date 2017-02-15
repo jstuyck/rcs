@@ -45,7 +45,7 @@ alias h='history'
 alias fixme='grep -n -a -s FIXME * 2> /dev/null'
 
 if [ `uname -s` != "Linux" ] ; then
-    alias ls="ls -FG"
+    alias ls="ls -FGh"
     alias ll="ls -lh"
     alias la="ls -lha"
 else
