@@ -30,7 +30,7 @@ export CVS_RSH="ssh"
 
 #export MALLOC_OPTIONS="J"
 
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin/:/opt/local/bin:/Users/CeD/go/bin:/usr/local/bin:/usr/lib/lapack
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/opt/local/bin:/Users/CeD/go/bin:/usr/local/bin:/usr/lib/lapack
 
 
 
